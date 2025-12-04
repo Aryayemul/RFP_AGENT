@@ -1,0 +1,131 @@
+{
+  "brand": "KEI",
+  "category": "EV_Charging_Cables",
+  "products": [
+    {
+      "model": "H07BZ5-F",
+      "type": "AC_Charging_Cable",
+      "standards": ["EN 50620", "IEC 62893"],
+      "features": [
+        "Flexible copper conductor",
+        "Low smoke zero halogen insulation",
+        "UV resistant sheath",
+        "Oil and flame retardant"
+      ],
+      "variants": [
+        {
+          "size": "3C x 2.5 sq.mm + 1 x 0.5 sq.mm",
+          "conductor_diameter_mm": 2.0,
+          "outer_diameter_mm": {"min": 9.3, "max": 11.9},
+          "weight_kg_per_km": 130,
+          "voltage_rating": "450/750V",
+          "temperature_range_C": "-40 to 90"
+        },
+        {
+          "size": "3C x 6 sq.mm + 1 x 0.5 sq.mm",
+          "conductor_diameter_mm": 3.4,
+          "outer_diameter_mm": {"min": 14.0, "max": 17.3},
+          "weight_kg_per_km": 260,
+          "voltage_rating": "450/750V",
+          "temperature_range_C": "-40 to 90"
+        }
+      ]
+    },
+
+    {
+      "model": "S1BZ5-F",
+      "type": "AC_Charging_Cable_Enhanced",
+      "standards": ["IEC 62893"],
+      "features": [
+        "Low smoke zero halogen",
+        "High flexibility TPU sheath",
+        "Abrasion resistant"
+      ],
+      "variants": [
+        {
+          "size": "3C x 10 sq.mm + 1 x 0.5 sq.mm",
+          "outer_diameter_mm": {"min": 16.5, "max": 20.2},
+          "weight_kg_per_km": 345,
+          "voltage_rating": "600/1000V"
+        }
+      ]
+    },
+
+    {
+      "model": "CCS2_DC_Fast_Charging",
+      "type": "DC_Charging_Cable",
+      "standards": ["IEC 62893-4"],
+      "features": [
+        "High power DC charging",
+        "Low resistance copper conductor",
+        "Special insulation for high temperature rise"
+      ],
+      "variants": [
+        {
+          "size": "70 sq.mm",
+          "current_rating_A": 200,
+          "voltage_rating": "1000V",
+          "temperature_range_C": "-25 to 105"
+        },
+        {
+          "size": "95 sq.mm",
+          "current_rating_A": 250,
+          "voltage_rating": "1000V",
+          "temperature_range_C": "-25 to 105"
+        }
+      ]
+    },
+
+    {
+      "model": "Type2_AC_Mode3",
+      "type": "AC_Charging_Cable_TUV",
+      "standards": ["EN 50620", "IEC 62893"],
+      "features": [
+        "Suitable for Type-2 EV connectors",
+        "Compatible with Mode-3 AC charging",
+        "High flexibility"
+      ],
+      "variants": [
+        {
+          "size": "5C x 6 sq.mm",
+          "outer_diameter_mm": {"min": 15.0, "max": 18.5},
+          "weight_kg_per_km": 300,
+          "voltage_rating": "450/750V"
+        }
+      ]
+    },
+
+    {
+      "model": "Silicone_EV_Cable",
+      "type": "High_Temperature_EV_Cable",
+      "standards": ["IEC 60245"],
+      "features": [
+        "Extreme temperature resistance",
+        "High flexibility silicone insulation"
+      ],
+      "variants": [
+        {
+          "size": "2C x 16 sq.mm",
+          "temperature_range_C": "-60 to 180",
+          "voltage_rating": "600V"
+        }
+      ]
+    },
+
+    {
+      "model": "EV_Control_Pair_Cable",
+      "type": "Control_Pair_Cable_For_Chargers",
+      "features": [
+        "Twisted pair design",
+        "Shielded for noise rejection"
+      ],
+      "variants": [
+        {
+          "size": "1 Pair x 0.75 sq.mm",
+          "shield": "Aluminium Mylar + Drain Wire",
+          "voltage_rating": "300V"
+        }
+      ]
+    }
+  ]
+}
